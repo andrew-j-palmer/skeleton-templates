@@ -1,0 +1,15 @@
+
+# several google fonts that are pretty sweet, should come in handy #
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cinzel+Decorative|Creepster|Forum|Fredericka+the+Great|Megrim|Nosifer|Permanent+Marker|Poiret+One|Sedgwick+Ave+Display|UnifrakturMaguntia" rel="stylesheet">
+
+# want to use skrollr at some point as well #
+
+https://webdesign.tutsplus.com/tutorials/jazz-up-a-static-webpage-with-subtle-parallax--webdesign-10195
+
+source:
+https://github.com/Prinzhorn/skrollr
+
+
+as well as probably anime.js, it looks cool and I like the idea
+
+#take out that part of readme that says minimal outside libraries, who cares let's go nuts
