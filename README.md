@@ -1,2 +1,2 @@
 # skeleton-templates
-Collection of Website Templates that utilize the Skeleton Framework by Dave Gamache. Written in HTML, CSS, and JavaScript, with minimal use of other libraries. Designed with the intention of being as lightweight and easy to maintain as possible.
+Collection of Website Templates that utilize the Skeleton Framework by Dave Gamache. Written in HTML, CSS, and JavaScript, with minimal use of other libraries. While I originally had it in my head that these templates were going to use ONLY HTML, CSS, and JS, I decided that's not really necessary or realistic, so I'm just going to go crazy and use whatever I want, with proper citation and links to what was used per template.
