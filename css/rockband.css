@@ -5,6 +5,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 2rem;
 }
 
 a {
@@ -21,15 +22,29 @@ a:hover {
 div {
     border: 1px dashed #00dddd;
     font-family: 'Amatic SC';
-    font-size: 110%;
 }
 
 .toppanel {
+    width: 100%;
     z-index: 2;
-    height: 3rem;
+    height: 4rem;
     border-bottom: 1px solid #00dddd;
     font-size: 2.6rem;
     box-shadow: 0px 6px 12px #760076;
+}
+
+.panelitem {
+    float: right;
+    background-color: #dddddd;
+    text-shadow: 2px 1px 2px #bbbbbb;
+    color: #000000;
+    margin-right: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 3rem;
+    border-bottom: 1px solid #666;
+    border-right: 1px solid #666;
+    border-radius: 3px;
 }
 
 .header {
