@@ -1,1 +1,54 @@
-body {}
+body {
+    background: #000000;
+    color: #bbbbbb;
+    background-image: url('../img/spatter_transparency.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* help me figure out where everything lies*/
+div {
+    border: 1px dashed #00dddd;
+    font-family: 'Amatic SC';
+    font-size: 110%;
+}
+
+.toppanel {
+    z-index: 2;
+    height: 3rem;
+    border-bottom: 1px solid #00dddd;
+    font-size: 2.6rem;
+    box-shadow: 0px 6px 12px #760076;
+}
+
+.header {
+    font-family: 'Cinzel';
+    min-height: 36rem;
+    background-image: none;
+    background: #000000;
+}
+
+.titlelogo {
+    text-align: center;
+    max-width: 45%;
+    position: fixed;
+    left: 10%;
+    top: 0;
+}
+
+.logoinset {
+    position: absolute;
+    top: 3rem;
+    max-width: 25%;
+}
