@@ -16,13 +16,25 @@ div {
     margin-top: 2rem;
 }
 
-.columns {
-    margin-bottom: 2rem;
-    padding-bottom: 0rem;
-    background: #111111;
-    padding-left: 1rem;
-    border-radius: 6px;
-    box-shadow: 1px 2px 6px #660066;
+.row {
+    filter: drop-shadow(0px 0px 10px #660066);
+}
+
+.card {
+    -webkit-clip-path: url(#columnClip1);
+            clip-path: url(#columnClip1);
+    margin-bottom: 4rem;
+    padding: 2rem;
+    padding-left: 3rem;
+    padding-bottom: 6rem;
+    padding-top: 4rem;
+    background: url('../img/cardTex.png');
+    background-color: #111111;
+}
+
+.card:nth-of-type(odd) {
+    -webkit-clip-path: url(#columnClip3);
+            clip-path: url(#columnClip3);
 }
 
 .toppanel {
@@ -111,10 +123,10 @@ div {
     20% {top: 6px;  transform: rotate(0deg)}
     25% {top: -40px;  transform: rotate(-4deg)}
     36% {top: -10px; transform: rotate(-4deg)}
-    50% {top: 0; transform: unset;}
+    50% {top: 0; transform: rotate(unset)}
     60% {top: -6px; transform: rotate(-2deg)}
-    70% {top: -6px; transform: rotate(-2deg)}
-    80% {top: 0px; transform: rotate(0deg)}
+    65% {top: -6px; transform: rotate(0deg)}
+    70% {top: 0px; transform: rotate(0deg)}
     100% {top: 0; transform: unset;}
 }
 
@@ -137,9 +149,40 @@ svg {
     filter: drop-shadow(0px 0px 20px #660066);
 }
 
+
+.overlay {
+    z-index: 1000;
+    position: absolute;
+    top: 4rem;
+    left: 10%;
+    width: 80%;
+    max-height: 16.5rem;
+}
+@media only screen and (min-width: 600px) {
+    .overlay {
+        max-height: 80%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .overlay {
+        max-height: 95%;
+    }
+}
+
 #clipoutside {
     -webkit-clip-path: url(#clipinside);
             clip-path: url(#clipinside);
+}
+
+#columnClip1 {
+    -webkit-clip-path: url(#columnClip2);
+            clip-path: url(#columnClip2);
+}
+
+#columnClip3 {
+    -webkit-clip-path: url(#columnClip4);
+            clip-path: url(#columnClip4);
 }
 
 .cheesegrater {
@@ -151,9 +194,12 @@ svg {
     -1px 1px 1px #00dddd;
 }
 
-.section {
-    margin-top: -2rem;
-    margin-left: -2rem;
+.title {
+    position: relative;
+    margin-left: 3rem;
+    padding-top: 4rem;
+    font-size: 5rem;
+    filter: drop-shadow(4px 0px 4px #00dddd);
 }
 
 .price {
@@ -163,6 +209,7 @@ svg {
 
 .item {
     box-shadow: unset;
+    filter: unset;
 }
 
 .itempic {
