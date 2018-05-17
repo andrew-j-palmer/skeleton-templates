@@ -156,8 +156,15 @@ svg {
     top: 4rem;
     left: 10%;
     width: 80%;
-    max-height: 16.5rem;
+    max-height: 26%;
 }
+
+@media only screen and (min-width: 400px) {
+    .overlay {
+        max-height: 80%;
+    }
+}
+
 @media only screen and (min-width: 600px) {
     .overlay {
         max-height: 80%;
