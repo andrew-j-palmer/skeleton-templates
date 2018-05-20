@@ -5,12 +5,6 @@ body {
     font-family: 'Amatic SC';
 };
 
-/* uncomment to see layout
-div {
-    border: 1px dashed #00dddd;
-}
-*/
-
 .card {
     padding: 18rem; 
     background-color: transparent;
@@ -149,11 +143,6 @@ svg {
     top: 4rem;
     left: 9%;
     width: 81%;
-}
-
-#columnClip1 {
-    -webkit-clip-path: url(#columnClip2);
-            clip-path: url(#columnClip2);
 }
 
 .cheesegrater {
