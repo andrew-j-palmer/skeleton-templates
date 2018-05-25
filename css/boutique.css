@@ -107,6 +107,44 @@ a:hover {
     font-family: 'Permanent Marker', cursive;
 }
 
+.classy {
+    font-family: 'Forum', Serif;
+}
 .title {
     font-size: 3rem;
+}
+
+.punchline {
+    width: 60%;
+    padding-left: 20%;
+    text-align: center;
+}
+
+#firstline{
+    opacity: 0;
+    padding-top: 20%;
+    margin-bottom: 0;
+    animation: fadein 0.7s;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#secondline {
+    margin-top: 0;
+    margin-bottom: 200px;
+}
+
+@media only screen and (max-width: 400px) {
+    h2 {
+        font-size: 3rem;
+    }
+
+    #firstline {
+        padding-top: 70%;
+    }
 }
