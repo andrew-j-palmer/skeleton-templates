@@ -13,6 +13,9 @@ body {
     background-size: cover;
 }
 
+#spacer {
+    height: 100%;
+}
 
 /* uncomment to see layout 
 div {
