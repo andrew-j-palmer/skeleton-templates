@@ -140,7 +140,6 @@ svg {
 .overlay {
     z-index: 2;
     position: absolute;
-    top: 4rem;
     left: 9%;
     width: 81%;
 }
